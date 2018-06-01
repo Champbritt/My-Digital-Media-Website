@@ -1,0 +1,954 @@
+h1 {
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+}
+
+#list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.links {
+    float: left;
+}
+
+.links a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+    background-color: #111;
+}
+
+.links a:active {
+    background-color: seagreen;
+}
+
+body {
+    background-image: url(MC-Background.gif);
+    opacity: 80%;
+}
+
+#margin-left {
+    width:200px;
+    height:1400px;
+    background-image: url(margin.png);
+    border: 3px solid black;
+    float:left;
+}
+
+#margin-right {
+    width:200px;
+    height:1400px;
+    background-image: url(margin.png);
+    border: 3px solid black;
+    float:right;
+}
+
+#margin-left-crafting {
+    width:200px;
+    height:1700px;
+    background-image: url(margin.png);
+    border: 3px solid black;
+    float:left;
+}
+
+#margin-right-crafting {
+    width:200px;
+    height:1700px;
+    background-image: url(margin.png);
+    border: 3px solid black;
+    float:right;
+}
+
+#margin-left-mobs {
+    width:200px;
+    height:11400px;
+    background-image: url(margin.png);
+    border: 3px solid black;
+    float:left;
+}
+
+#margin-right-mobs {
+    width:200px;
+    height:11400px;
+    background-image: url(margin.png);
+    border: 3px solid black;
+    float:right;
+}
+
+#margin-left-potion {
+    width:200px;
+    height:2650px;
+    background-image: url(margin.png);
+    border: 3px solid black;
+    float:left;
+}
+
+#margin-right-potion {
+    width:200px;
+    height:2650px;
+    background-image: url(margin.png);
+    border: 3px solid black;
+    float:right;
+}
+
+#margin-left-tip {
+    width:200px;
+    height:1650px;
+    background-image: url(margin.png);
+    border: 3px solid black;
+    float:left;
+}
+
+#margin-right-tip {
+    width:200px;
+    height:1650px;
+    background-image: url(margin.png);
+    border: 3px solid black;
+    float:right;
+}
+
+#Notch {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 300px;
+    float: inherit;
+    background-image:url(Notch_personal_exe.jpg);
+}
+#notchArrow {
+    width:550px;
+    margin-left: auto;
+    margin-right: auto; }
+
+#notchArrow .fa-arrow-up {
+    color: black;
+}
+
+#notchWriting {
+    font-size: 30px;
+    text-align:center;
+    color:white;
+    text-shadow: 2px 2px 1px black;
+}
+
+#bold {
+    font-weight: bold;
+    font-size 1.5em;
+}
+
+#release {
+    color:white;
+    text-shadow: 2px 2px 1px black;
+}
+
+hr {
+    color:white;
+}
+
+#dates {
+    text-align: left;
+    font-size:23px;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+}
+
+#creative {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    float:left;
+    margin-left:30px;
+    margin-right:30px;
+    margin-top:10px;
+    background-image: url(mob-pictures/Creative-VS-Survival.png);
+    text-align:center;
+}
+
+.header {
+    text-decoration: underline;
+}
+
+.text {
+    text-align: left;
+    font-size:20px;
+}
+
+.text2 {
+    text-align: left;
+    font-size:20px;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+}
+
+.mobs-h2 {
+    font-size:30px;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+}
+
+.lable {
+    font-weight: bold;
+}
+
+#survival {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    float:right;
+    margin-left:30px;
+    margin-right:30px;
+    margin-top:10px;
+    background-image: url(mob-pictures/Creative-VS-Survival.png);
+    text-align:center;
+}
+
+#vs {
+    width:10px;
+    height:10px;
+    border:0px;
+    margin-top:100px;
+    margin-left:70px;
+    margin-right:30px;
+    font-size: 50px;
+    text-align:center;
+    text-decoration:none;
+}
+
+div {
+    width: 275px;
+    height: 300px;
+    border: 2px solid black;
+    font-size:30px;
+    background: transparent;
+    float:left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p .fa-heart {
+    color: red;
+    font-size:20px;
+    text-shadow: 2px 2px 1px black;
+}
+
+p .fa-heart black {
+    color: black;
+    font-size:20px;
+}
+
+#creeper {
+    float: none;
+    width:60%;
+    height:250px;
+    padding:5px;
+    margin-right:20%;
+    margin-left:20%;
+    margin-top:5px;
+    background-image: url(mob-pictures/Aggressive/Creeper-mobs.png);
+}
+
+#skeleton {
+    float: none;
+    width:60%;
+    height:250px;
+    padding:5px;
+    margin-right:20%;
+    margin-left:20%;
+    background-image: url(mob-pictures/Aggressive/Skeleton-mobs.png);
+}
+
+#wither-skeleton {
+    float: none;
+    width:60%;
+    height:250px;
+    padding:5px;
+    margin-right:20%;
+    margin-left:20%;
+    background-image: url(mob-pictures/Aggressive/Wither-skeleton-mobs.png);
+}
+
+#zombie {
+    float: none;
+    width:60%;
+    height:250px;
+    padding:5px;
+    margin-right:20%;
+    margin-left:20%;
+    background-image: url(mob-pictures/Aggressive/Zombie-mobs.png);
+}
+
+#blaze {
+    float: none;
+    width:60%;
+    height:250px;
+    padding:5px;
+    margin-right:20%;
+    margin-left:20%;
+    background-image: url(mob-pictures/Aggressive/Blaze-mobs.png);
+}
+
+#witch {
+    float: none;
+    width:60%;
+    height:250px;
+    padding:5px;
+    margin-right:20%;
+    margin-left:20%;
+    background-image: url(mob-pictures/Aggressive/Witch-mobs.png);
+}
+
+#spider-jockey {
+    float: none;
+    width:60%;
+    height:250px;
+    padding:5px;
+    margin-right:20%;
+    margin-left:20%;
+    background-image: url(mob-pictures/Aggressive/Chicken-jockey-mobs.png);
+}
+
+#chicken-jockey {
+    float: none;
+    width:60%;
+    height:250px;
+    padding:5px;
+    margin-right:20%;
+    margin-left:20%;
+    background-image: url(mob-pictures/Aggressive/Spider-jockey-mobs.png);
+}
+
+#silverfish {
+    float: none;
+    width:60%;
+    height:250px;
+    padding:5px;
+    margin-right:20%;
+    margin-left:20%;
+    background-image: url(mob-pictures/Aggressive/Silverfish-mobs.png);
+}
+
+#endermite {
+    float: none;
+    width:60%;
+    height:250px;
+    padding:5px;
+    margin-right:20%;
+    margin-left:20%;
+    background-image: url(mob-pictures/Aggressive/Endermite-mobs.png);
+}
+
+#elder-guardian {
+    float: none;
+    width:60%;
+    height:250px;
+    padding:5px;
+    margin-right:20%;
+    margin-left:20%;
+    background-image: url(mob-pictures/Aggressive/Elder-guardian-mobs.png);
+}
+
+#guardian {
+    float: none;
+    width:60%;
+    height:250px;
+    padding:5px;
+    margin-right:20%;
+    margin-left:20%;
+    background-image: url(mob-pictures/Aggressive/Guardian-mobs.png);
+}
+
+#shulker {
+    float: none;
+    width:60%;
+    height:250px;
+    padding:5px;
+    margin-right:20%;
+    margin-left:20%;
+    background-image: url(mob-pictures/Aggressive/Shulker-mobs.png);
+}
+
+#ghast {
+    float: none;
+    width:60%;
+    height:250px;
+    padding:5px;
+    margin-right:20%;
+    margin-left:20%;
+    background-image: url(mob-pictures/Aggressive/Ghast-mobs.png);
+}
+
+#magma-cube {
+    float: none;
+    width:60%;
+    height:325px;
+    padding:5px;
+    margin-right:20%;
+    margin-left:20%;
+    background-image: url(mob-pictures/Aggressive/Magma-cube-mobs.png);
+}
+
+#slime {
+    float: none;
+    width:60%;
+    height:325px;
+    padding:5px;
+    margin-right:20%;
+    margin-left:20%;
+    background-image: url(mob-pictures/Aggressive/Slime-mobs.png);
+}
+
+#ender-dragon {
+    float: none;
+    width:60%;
+    height:250px;
+    padding:5px;
+    margin-right:20%;
+    margin-left:20%;
+    background-image: url(mob-pictures/Aggressive/Ender-dragon-mobs.png);
+}
+
+#wither {
+    float: none;
+    width:60%;
+    height:250px;
+    padding:5px;
+    margin-right:20%;
+    margin-left:20%;
+    background-image: url(mob-pictures/Aggressive/Wither-mobs.png);
+}
+
+#enderman {
+    float: none;
+    width:60%;
+    height:250px;
+    padding:5px;
+    margin-right:20%;
+    margin-left:20%;
+    margin-top:5px;
+    background-image: url(mob-pictures/Passive-Aggressive/Enderman-mobs.png);
+}
+
+#zombie-pigman {
+    float: none;
+    width:60%;
+    height:250px;
+    padding:5px;
+    margin-right:20%;
+    margin-left:20%;
+    margin-top:5px;
+    background-image: url(mob-pictures/Passive-Aggressive/Zombie-pigman-mobs.png);
+}
+
+#spider {
+    float: none;
+    width:60%;
+    height:250px;
+    padding:5px;
+    margin-right:20%;
+    margin-left:20%;
+    margin-top:5px;
+    background-image: url(mob-pictures/Passive-Aggressive/Spider-mobs.png);
+}
+
+#cave-spider {
+    float: none;
+    width:60%;
+    height:250px;
+    padding:5px;
+    margin-right:20%;
+    margin-left:20%;
+    margin-top:5px;
+    background-image: url(mob-pictures/Passive-Aggressive/Cave-spider-mobs.png);
+}
+
+#snow-golem {
+    float: none;
+    width:60%;
+    height:250px;
+    padding:5px;
+    margin-right:20%;
+    margin-left:20%;
+    margin-top:5px;
+    background-image: url(mob-pictures/Passive-Aggressive/Snow-golem-mobs.png);
+}
+
+#iron-golem {
+    float: none;
+    width:60%;
+    height:250px;
+    padding:5px;
+    margin-right:20%;
+    margin-left:20%;
+    margin-top:5px;
+    background-image: url(mob-pictures/Passive-Aggressive/Iron-golem-mobs.png);
+}
+
+#villager {
+    float: none;
+    width:60%;
+    height:250px;
+    padding:5px;
+    margin-right:20%;
+    margin-left:20%;
+    margin-top:5px;
+    background-image: url(mob-pictures/Passive/Villager-BG.png);
+}
+
+#pig {
+    float: none;
+    width:60%;
+    height:250px;
+    padding:5px;
+    margin-right:20%;
+    margin-left:20%;
+    margin-top:5px;
+    background-image: url(mob-pictures/Passive/Pig-BG.png);
+}
+
+#cow {
+    float: none;
+    width:60%;
+    height:250px;
+    padding:5px;
+    margin-right:20%;
+    margin-left:20%;
+    margin-top:5px;
+    background-image: url(mob-pictures/Passive/Cow-BG.png);
+}
+
+#chicken {
+    float: none;
+    width:60%;
+    height:250px;
+    padding:5px;
+    margin-right:20%;
+    margin-left:20%;
+    margin-top:5px;
+    background-image: url(mob-pictures/Passive/Chicken-BG.png);
+}
+
+#sheep {
+    float: none;
+    width:60%;
+    height:250px;
+    padding:5px;
+    margin-right:20%;
+    margin-left:20%;
+    margin-top:5px;
+    background-image: url(mob-pictures/Passive/Sheep-BG.png);
+}
+
+#polar-bear {
+    float: none;
+    width:60%;
+    height:250px;
+    padding:5px;
+    margin-right:20%;
+    margin-left:20%;
+    margin-top:5px;
+    background-image: url(mob-pictures/Passive/Polar-bear-BG.png);
+}
+
+#bat {
+    float: none;
+    width:60%;
+    height:250px;
+    padding:5px;
+    margin-right:20%;
+    margin-left:20%;
+    margin-top:5px;
+    background-image: url(mob-pictures/Passive/Bat-BG.png);
+}
+
+#donkey {
+    float: none;
+    width:60%;
+    height:250px;
+    padding:5px;
+    margin-right:20%;
+    margin-left:20%;
+    margin-top:5px;
+    background-image: url(mob-pictures/Passive/Donkey-BG.png);
+}
+
+#horse {
+    float: none;
+    width:60%;
+    height:250px;
+    padding:5px;
+    margin-right:20%;
+    margin-left:20%;
+    margin-top:5px;
+    background-image: url(mob-pictures/Passive/Horse-BG.png);
+}
+
+#rabbit {
+    float: none;
+    width:60%;
+    height:250px;
+    padding:5px;
+    margin-right:20%;
+    margin-left:20%;
+    margin-top:5px;
+    background-image: url(mob-pictures/Passive/Rabbit-BG.png);
+}
+
+#ocelot {
+    float: none;
+    width:60%;
+    height:250px;
+    padding:5px;
+    margin-right:20%;
+    margin-left:20%;
+    margin-top:5px;
+    background-image: url(mob-pictures/Passive/Ocelot-BG.png);
+}
+
+#squid {
+    float: none;
+    width:60%;
+    height:250px;
+    padding:5px;
+    margin-right:20%;
+    margin-left:20%;
+    margin-top:5px;
+    background-image: url(mob-pictures/Passive/Squid-BG.png);
+}
+
+#fish {
+    float: none;
+    width:60%;
+    height:250px;
+    padding:5px;
+    margin-right:20%;
+    margin-left:20%;
+    margin-top:5px;
+    background-image: url(mob-pictures/Passive/Fish-BG.png);
+}
+
+table {
+    float: none;
+    width:60%;
+    padding:5px;
+    margin-right:20%;
+    margin-left:20%;
+    margin-top:5px;
+    background: transparent;
+    border: 2px solid black;
+    padding:7px;
+}
+
+td {
+    text-align: center;
+    background-color: transparent;
+}
+
+th {background: transparent;}
+
+td,th {
+    width:125px;
+    padding:7px;
+    border: 2px solid black;
+}
+
+#crafting-table {
+    background-image: url(mob-pictures/Crafting/table.png)
+}
+
+#crafting-table:hover {
+    background-image: url(mob-pictures/Crafting/Cafting-recipes/table-recipe.png)
+}
+
+#furnace {
+    background-image: url(mob-pictures/Crafting/furnace-BG.png)
+}
+
+#furnace:hover {
+    background-image: url(mob-pictures/Crafting/Cafting-recipes/furnace-recipe.png)
+}
+
+#glass {
+    background-image: url(mob-pictures/Crafting/glass-BG.png)
+}
+
+#glass:hover {
+    background-image: url(mob-pictures/Crafting/Cafting-recipes/glass-recipe.png)
+}
+
+#chest {
+    background-image: url(mob-pictures/Crafting/chest-BG.png)
+}
+
+#chest:hover {
+    background-image: url(mob-pictures/Crafting/Cafting-recipes/chest-recipe.png)
+}
+
+#fishing-rod {
+    background-image: url(mob-pictures/Crafting/fishing-pole-BG.png)
+}
+
+#fishing-rod:hover {
+    background-image: url(mob-pictures/Crafting/Cafting-recipes/fishing-rod-recipe.png)
+}
+
+#torch {
+    background-image: url(mob-pictures/Crafting/Torch-.png)
+}
+
+#torch:hover {
+    background-image: url(mob-pictures/Crafting/Cafting-recipes/torch-recipe.png)
+}
+
+#door {
+    background-image: url(mob-pictures/Crafting/door-BG.png)
+}
+
+#door:hover {
+    background-image: url(mob-pictures/Crafting/Cafting-recipes/door-recipe.png)
+}
+
+#wooden-plank {
+    background-image: url(mob-pictures/Crafting/Wood-plank.png)
+}
+
+#wooden-plank:hover {
+    background-image: url(mob-pictures/Crafting/Cafting-recipes/plank-recipe.png)
+}
+
+#bed {
+    background-image: url(mob-pictures/Crafting/bed-BG.png)
+}
+
+#bed:hover {
+    background-image: url(mob-pictures/Crafting/Cafting-recipes/bed-recipe.png)
+}
+
+#sword {
+    background-image: url(mob-pictures/Crafting/sword-BG.png)
+}
+
+#sword:hover {
+    background-image: url(mob-pictures/Crafting/Cafting-recipes/sword-recipe.png)
+}
+
+#pickaxe {
+    background-image: url(mob-pictures/Crafting/pickaxe-BG.png)
+}
+
+#pickaxe:hover {
+    background-image: url(mob-pictures/Crafting/Cafting-recipes/pickaxe-recipe.png)
+}
+
+#axe {
+    background-image: url(mob-pictures/Crafting/axe-BG.png)
+}
+
+#axe:hover {
+    background-image: url(mob-pictures/Crafting/Cafting-recipes/axe-recipe.png)
+}
+
+#hoe {
+    background-image: url(mob-pictures/Crafting/hoe-BG.png)
+}
+
+#hoe:hover {
+    background-image: url(mob-pictures/Crafting/Cafting-recipes/hoe-recipe.png)
+}
+
+#shovel {
+    background-image: url(mob-pictures/Crafting/shovel-BG.png)
+}
+
+#shovel:hover {
+    background-image: url(mob-pictures/Crafting/Cafting-recipes/shovel-recipe.png)
+}
+
+#helmet {
+    background-image: url(mob-pictures/Crafting/helmet-BG.png)
+}
+
+#helmet:hover {
+    background-image: url(mob-pictures/Crafting/Cafting-recipes/helmet-recipe.png)
+}
+
+#chestplate {
+    background-image: url(mob-pictures/Crafting/chestplate-BG.png)
+}
+
+#chestplate:hover {
+    background-image: url(mob-pictures/Crafting/Cafting-recipes/chestplate-recipe.png)
+}
+
+#leggings {
+    background-image: url(mob-pictures/Crafting/leggings-BG.png)
+}
+
+#leggings:hover {
+    background-image: url(mob-pictures/Crafting/Cafting-recipes/leggings-recipe.png)
+}
+
+#boots {
+    background-image: url(mob-pictures/Crafting/boots-BG.png)
+}
+
+#boots:hover {
+    background-image: url(mob-pictures/Crafting/Cafting-recipes/boots-recipe.png)
+}
+
+.lablepotion {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.potionheader {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.base {
+    background-image: url(mob-pictures/Potions/Base-potion.png);
+}
+
+#healing {
+    background-image: url(mob-pictures/Potions/healing.png)
+}
+
+#resistance {
+    background-image: url(mob-pictures/Potions/fire-resistance.png)
+}
+
+#regeneration {
+    background-image: url(mob-pictures/Potions/regeneration.png)
+}
+
+#strength {
+    background-image: url(mob-pictures/Potions/strength.png)
+}
+
+#swiftness {
+    background-image: url(mob-pictures/Potions/swiftness.png)
+}
+
+#nightvision {
+    background-image: url(mob-pictures/Potions/night-vision.png)
+}
+
+#invisibility {
+    background-image: url(mob-pictures/Potions/invisibility.png)
+}
+
+#waterbreathing {
+    background-image: url(mob-pictures/Potions/night-vision.png)
+}
+
+#leaping {
+    background-image: url(mob-pictures/Potions/leaping.png)
+}
+
+#poison {
+    background-image: url(mob-pictures/Potions/poison.png)
+}
+
+#weakness {
+    background-image: url(mob-pictures/Potions/weakness.png)
+}
+
+#harming {
+    background-image: url(mob-pictures/Potions/harming.png)
+}
+
+#slowness {
+    background-image: url(mob-pictures/Potions/slowness.png)
+}
+
+#wheat {
+    float: none;
+    width:60%;
+    height:200px;
+    padding:5px;
+    margin-right:20%;
+    margin-left:20%;
+    margin-top:5px;
+    background-image: url(mob-pictures/Farming/Wheat-BG.png);
+}
+
+#potato {
+    float: none;
+    width:60%;
+    height:200px;
+    padding:5px;
+    margin-right:20%;
+    margin-left:20%;
+    margin-top:5px;
+    background-image: url(mob-pictures/Farming/Potato-BG.png);
+}
+
+#carrot {
+    float: none;
+    width:60%;
+    height:200px;
+    padding:5px;
+    margin-right:20%;
+    margin-left:20%;
+    margin-top:5px;
+    background-image: url(mob-pictures/Farming/Carrot-BG.png);
+}
+
+#beet {
+    float: none;
+    width:60%;
+    height:200px;
+    padding:5px;
+    margin-right:20%;
+    margin-left:20%;
+    margin-top:5px;
+    background-image: url(mob-pictures/Farming/Beetroot-BG.png);
+}
+
+#melon {
+    float: none;
+    width:60%;
+    height:200px;
+    padding:5px;
+    margin-right:20%;
+    margin-left:20%;
+    margin-top:5px;
+    background-image: url(mob-pictures/Farming/Watermelon-BG.png);
+}
+
+#pumpkin {
+    float: none;
+    width:60%;
+    height:200px;
+    padding:5px;
+    margin-right:20%;
+    margin-left:20%;
+    margin-top:5px;
+    background-image: url(mob-pictures/Farming/Pumpkin-BG.png);
+}
+
+.tip-header {
+    font-size: 35px;
+    text-decoration: underline;
+    color: white;
+}
+
+.tip-text {
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+}
